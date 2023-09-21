@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+.text-g {
+    color: grey;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 130px;
+
+}
+
+.header--logo {
+    margin-right: 248px;
+}
+
+.header--texts {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-left: 75px;
+}
+
+
+
+.header--text {
+    margin-left: 35px;
+}
+
+.header--underline {
+    margin-left: 35px;
+    position: relative;
+    top: -15px;
+    width: 41px;
+}
+
+.header--language {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    margin-left: 342px;
+    margin-top: 23px;
+    justify-content: end;
+}
+
+.header--language-en {
+    margin-left: 8px;
+}
+
+/* intro */
+
+.intro {
+    display: flex;
+    padding: 22px 240px 0 240px;
+    background: url(../img/road-g9875459d1_1920\ 1.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.intro--title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: 53px;
+}
+
+
+
+.intro--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    background: #DB2512;
+    width: 198px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.intro--cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+}
+
+.intro--card1 {
+    width: 350px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 39px 0 37px 39px;
+}
+
+.intro--card1-title {
+    margin-top: 21px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+
+.intro--card1-text {
+    margin-top: 15px;
+    color: #B7B7B7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.intro--card2 {
+    width: 350px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 39px 0 37px 39px;
+}
+
+.intro--card2-title {
+    margin-top: 21px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+
+.intro--card2-text {
+    margin-top: 15px;
+    color: #B7B7B7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.intro--card3 {
+    width: 350px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 39px 0 37px 39px;
+}
+
+.intro--card3-title {
+    margin-top: 21px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+
+.intro--card3-text {
+    margin-top: 15px;
+    color: #B7B7B7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* service */
+
+.serv {
+    padding: 197px 240px 98px 240px;
+}
+
+.serv--title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.serv--post-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.25px;
+    text-decoration-line: underline;
+    margin-bottom: 60px;
+}
+
+.serv--cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv--card1 {
+    width: 386px;
+    height: 500px;
+    flex-shrink: 0;
+    -webkit-box-shadow: 0px 1000px 100px 100px rgba(0, 0, 0, 0.83) inset;
+    -moz-box-shadow: 0px 1000px 100px 100px rgba(0, 0, 0, 0.83) inset;
+    box-shadow: 0px 1000px 100px 100px rgba(0, 0, 0, 0.83) inset;
+    background: url(../img/iStock-1125646126\ 1.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.serv--card1-text {
+    margin-bottom: 32px;
+    margin-top: 75px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 4.14px;
+    text-transform: uppercase;
+}
+
+.serv--card2 {
+    width: 386px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(../img/iStock-1227609937\ 1.png), lightgray 50% / cover no-repeat;
+}
+
+.serv--card3 {
+    width: 386px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(../img/iStock-544604266-1\ 1.png), lightgray 50% / cover no-repeat;
+}
+
+.serv--undercards-texts {
+    display: flex;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.serv--cardntext {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.serv--cardntext {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+/* about */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 117px 240px 116px 240px;
+    background: #171616;
+}
+
+.about--title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+
+}
+
+.about--text {
+    color: #B7B7B7;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 3.45px;
+    margin-bottom: 48px;
+}
+
+.about--more {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2.7px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.about--pic {
+    margin-left: 182px;
+}
+
+/* process */
+
+.prcss {
+    padding: 100px 240px 100px 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prcss--title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 148px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.prcss--post-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom: 92px;
+}
+
+.prcss--cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prcss--card {
+    margin-left: 20px;
+    width: 386px;
+    height: 150px;
+    flex-shrink: 0;
+    padding: 31px 0 0 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.prcss--card-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.prcss--card-text {
+    color: #B7B7B7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* contact */
+
+.contact {
+    padding: 97px 0 97px 230px;
+    background: #171616;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-bottom: 47px;
+}
+
+.contact--texts {
+    display: flex;
+}
+
+
+
+.contact--text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 2.25px;
+    margin: 0 46px 46px 0;
+}
+
+.contact--text hr {
+    margin-top: 9px;
+    width: 197px;
+    flex-shrink: 0;
+}
+
+.contact--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--text-phone div {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1.8px;
+}
+
+.contact--texts-row2 {
+    margin-left: -150px;
+}
+
+.contact--text-message {
+    margin-top: 9px;
+}
+
+.contact--text-message-underline {
+    width: 440px;
+}
+
+.contact--text-message div {
+    margin-bottom: 110px;
+}
+
+.contact--text-phone {
+    margin-top: -20px;
+}
+
+.contact--button {
+    margin-top: 48px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 198px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #DB2512;
+}
+
+/* footer */
+
+.footer {
+    padding: 62px 242px 63px 231px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer--by {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 2.25px;
+}
+
+.footer--social{
+    margin-right: 21px;
+}
